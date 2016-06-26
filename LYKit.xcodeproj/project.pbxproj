@@ -15,6 +15,7 @@
 		BABB752E1D202394003ACE4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BABB752C1D202394003ACE4C /* LaunchScreen.storyboard */; };
 		BABB75391D202394003ACE4C /* LYKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BABB75381D202394003ACE4C /* LYKitTests.m */; };
 		BABB75441D202394003ACE4C /* LYKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BABB75431D202394003ACE4C /* LYKitUITests.m */; };
+		BABB75541D2023B8003ACE4C /* UIButton+Alignment.m in Sources */ = {isa = PBXBuildFile; fileRef = BABB75531D2023B8003ACE4C /* UIButton+Alignment.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		BABB753F1D202394003ACE4C /* LYKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BABB75431D202394003ACE4C /* LYKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYKitUITests.m; sourceTree = "<group>"; };
 		BABB75451D202394003ACE4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BABB75521D2023B8003ACE4C /* UIButton+Alignment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Alignment.h"; sourceTree = "<group>"; };
+		BABB75531D2023B8003ACE4C /* UIButton+Alignment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Alignment.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,7 @@
 				BABB75221D202394003ACE4C /* AppDelegate.m */,
 				BABB75241D202394003ACE4C /* ViewController.h */,
 				BABB75251D202394003ACE4C /* ViewController.m */,
+				BABB75511D2023A3003ACE4C /* LYKit */,
 				BABB75271D202394003ACE4C /* Main.storyboard */,
 				BABB752A1D202394003ACE4C /* Assets.xcassets */,
 				BABB752C1D202394003ACE4C /* LaunchScreen.storyboard */,
@@ -138,6 +142,15 @@
 				BABB75451D202394003ACE4C /* Info.plist */,
 			);
 			path = LYKitUITests;
+			sourceTree = "<group>";
+		};
+		BABB75511D2023A3003ACE4C /* LYKit */ = {
+			isa = PBXGroup;
+			children = (
+				BABB75521D2023B8003ACE4C /* UIButton+Alignment.h */,
+				BABB75531D2023B8003ACE4C /* UIButton+Alignment.m */,
+			);
+			name = LYKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +289,7 @@
 				BABB75261D202394003ACE4C /* ViewController.m in Sources */,
 				BABB75231D202394003ACE4C /* AppDelegate.m in Sources */,
 				BABB75201D202394003ACE4C /* main.m in Sources */,
+				BABB75541D2023B8003ACE4C /* UIButton+Alignment.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
