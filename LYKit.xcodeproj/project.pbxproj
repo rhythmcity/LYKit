@@ -16,6 +16,7 @@
 		BABB75391D202394003ACE4C /* LYKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BABB75381D202394003ACE4C /* LYKitTests.m */; };
 		BABB75441D202394003ACE4C /* LYKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BABB75431D202394003ACE4C /* LYKitUITests.m */; };
 		BABB75541D2023B8003ACE4C /* UIButton+Alignment.m in Sources */ = {isa = PBXBuildFile; fileRef = BABB75531D2023B8003ACE4C /* UIButton+Alignment.m */; };
+		BABB75591D20245D003ACE4C /* UIButton+Alignment-Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABB75581D20245D003ACE4C /* UIButton+Alignment-Swift.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		BABB75451D202394003ACE4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BABB75521D2023B8003ACE4C /* UIButton+Alignment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Alignment.h"; sourceTree = "<group>"; };
 		BABB75531D2023B8003ACE4C /* UIButton+Alignment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Alignment.m"; sourceTree = "<group>"; };
+		BABB75551D202425003ACE4C /* LYKit-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LYKit-Bridging-Header.h"; sourceTree = "<group>"; };
+		BABB75581D20245D003ACE4C /* UIButton+Alignment-Swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Alignment-Swift.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +152,8 @@
 			children = (
 				BABB75521D2023B8003ACE4C /* UIButton+Alignment.h */,
 				BABB75531D2023B8003ACE4C /* UIButton+Alignment.m */,
+				BABB75581D20245D003ACE4C /* UIButton+Alignment-Swift.swift */,
+				BABB75551D202425003ACE4C /* LYKit-Bridging-Header.h */,
 			);
 			name = LYKit;
 			sourceTree = "<group>";
@@ -287,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BABB75261D202394003ACE4C /* ViewController.m in Sources */,
+				BABB75591D20245D003ACE4C /* UIButton+Alignment-Swift.swift in Sources */,
 				BABB75231D202394003ACE4C /* AppDelegate.m in Sources */,
 				BABB75201D202394003ACE4C /* main.m in Sources */,
 				BABB75541D2023B8003ACE4C /* UIButton+Alignment.m in Sources */,
@@ -432,10 +438,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = LYKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = liyan.LYKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LYKit/LYKit-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -443,10 +452,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = LYKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = liyan.LYKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LYKit/LYKit-Bridging-Header.h";
 			};
 			name = Release;
 		};
