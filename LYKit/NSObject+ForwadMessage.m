@@ -56,6 +56,6 @@
 
 void forwarded(id self, SEL _cmd) {
     
-    NSLog(@"%@,%@ 方法找不到 已经被转发",self,NSStringFromSelector(_cmd));
+    NSLog(@"[%@ %@] 方法找不到 已经被转发",[self class],NSStringFromSelector(_cmd));
 }
 @end
