@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA17CE5A1D7E8E8600FD6B6E /* NSObject+ForwadMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = BA17CE591D7E8E8600FD6B6E /* NSObject+ForwadMessage.m */; };
 		BABB75201D202394003ACE4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BABB751F1D202394003ACE4C /* main.m */; };
 		BABB75231D202394003ACE4C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BABB75221D202394003ACE4C /* AppDelegate.m */; };
 		BABB75261D202394003ACE4C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BABB75251D202394003ACE4C /* ViewController.m */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA17CE581D7E8E8600FD6B6E /* NSObject+ForwadMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ForwadMessage.h"; sourceTree = "<group>"; };
+		BA17CE591D7E8E8600FD6B6E /* NSObject+ForwadMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ForwadMessage.m"; sourceTree = "<group>"; };
 		BABB751B1D202394003ACE4C /* LYKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BABB751F1D202394003ACE4C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BABB75211D202394003ACE4C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -150,6 +153,8 @@
 		BABB75511D2023A3003ACE4C /* LYKit */ = {
 			isa = PBXGroup;
 			children = (
+				BA17CE581D7E8E8600FD6B6E /* NSObject+ForwadMessage.h */,
+				BA17CE591D7E8E8600FD6B6E /* NSObject+ForwadMessage.m */,
 				BABB75521D2023B8003ACE4C /* UIButton+Alignment.h */,
 				BABB75531D2023B8003ACE4C /* UIButton+Alignment.m */,
 				BABB75581D20245D003ACE4C /* UIButton+Alignment-Swift.swift */,
@@ -295,6 +300,7 @@
 				BABB75591D20245D003ACE4C /* UIButton+Alignment-Swift.swift in Sources */,
 				BABB75231D202394003ACE4C /* AppDelegate.m in Sources */,
 				BABB75201D202394003ACE4C /* main.m in Sources */,
+				BA17CE5A1D7E8E8600FD6B6E /* NSObject+ForwadMessage.m in Sources */,
 				BABB75541D2023B8003ACE4C /* UIButton+Alignment.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -526,6 +532,7 @@
 				BABB754A1D202394003ACE4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BABB754B1D202394003ACE4C /* Build configuration list for PBXNativeTarget "LYKitTests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +541,7 @@
 				BABB754D1D202394003ACE4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BABB754E1D202394003ACE4C /* Build configuration list for PBXNativeTarget "LYKitUITests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +550,7 @@
 				BABB75501D202394003ACE4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
